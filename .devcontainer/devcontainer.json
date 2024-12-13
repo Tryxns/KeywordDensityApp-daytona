@@ -7,5 +7,6 @@
 			"USER_GID": "1001"
 		}
 	},
-    "remoteUser": "developer"
+    "remoteUser": "developer",
+	"postCreateCommand": ["composer install", "npm install", "npm run build"]
 }
