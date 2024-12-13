@@ -17,7 +17,7 @@ Keyword density is a key factor in the Google search engine algorithm. It is wid
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
 2. **Create the Workspace**:  
    ```bash  
-   daytona create <SAMPLE_REPO_URL> 
+   daytona create https://github.com/Tryxns/KeywordDensityApp-daytona.git 
    ```  
 
 3. **Install the Pre-requisites**:  
