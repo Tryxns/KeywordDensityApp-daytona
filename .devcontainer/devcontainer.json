@@ -1,0 +1,12 @@
+{
+	"name": "My Development Container",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"USER_UID": "1001",
+			"USER_GID": "1001"
+		}
+	},
+    "postCreateCommand": "pip install -r requirements.txt",
+    "remoteUser": "vscode"
+}
