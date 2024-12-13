@@ -38,6 +38,7 @@ Keyword density is a key factor in the Google search engine algorithm. It is wid
 
 ---
 
-## ✨ Features  
+## ✨ Features
+> keyword density calculator
+> standardized development environment with devcontainers
 
-List of sample features (e.g. realtime chat app, standardized development environment with devcontainers)
