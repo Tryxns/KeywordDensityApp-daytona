@@ -15,9 +15,16 @@ class ToolController extends Controller
     }
     public function CalculateAndGetDensity(Request $request) {
         if ($request->isMethod('POST')) {
-            if (isset($request->keywordInput)) { // Test the parameter is set.
-                $html = new Html2Text($request->keywordInput); // Setup the html2text obj.
-                $text = strtolower($html->getText()); // Execute the getText() function and convert all text to lower case to prevent work duplication
+            $rawhtml = null;
+            if (isset($request->textInput)) {
+                $rawhtml = $request->textInput;
+            } elseif (isset($request->urlInput)) {
+                $rawhtml = file_get_contents($request->urlInput);                
+            }
+
+            if (!empty($rawhtml)) {
+                $html = new Html2Text($rawhtml);
+                $text = strtolower($html->getText());
                 $totalWordCount = str_word_count($text); // Get the total count of words in the text string
                 $wordsAndOccurrence  = array_count_values(str_word_count($text, 1)); // Get each word and the occurrence count as key value array
                 arsort($wordsAndOccurrence); // Sort into descending order of the array value (occurrence)
