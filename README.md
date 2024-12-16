@@ -20,18 +20,7 @@ Keyword density is a key factor in the Google search engine algorithm. It is wid
    daytona create https://github.com/Tryxns/KeywordDensityApp-daytona.git 
    ```  
 
-3. **Install the Pre-requisites**:  
-   ```bash  
-   composer install
-   npm install
-   ```  
-
-4. **Build the asset packages**:  
-   ```bash  
-   npm run build
-   ```  
-
-5. **Start the Application**:  
+3. **Start the Application**:  
    ```bash  
    php artisan serve
    ```  
