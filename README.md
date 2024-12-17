@@ -6,7 +6,9 @@ Once you finish your sample and it gets merged, you can open a PR in the Daytona
 
 # Sample <PHP/Laravel>
 
-Keyword density is a key factor in the Google search engine algorithm. It is widely thought that a good keyword density for optimising web pages for Google rankings is around 3.5%. If the percentage is higher, for example 20%, then this could be seen as 'keyword stuffing' and therefore could badly affect your Google search rankings
+Keyword density is a key factor in the Google search engine algorithm. It is widely thought that a good keyword density for optimising web pages for Google rankings is around 3.5%. If the percentage is higher, for example 20%, then this could be seen as 'keyword stuffing' and therefore could badly affect your Google search rankings.
+
+This project is stands as a full code version of tutorial https://www.freecodecamp.org/news/how-to-build-a-keyword-density-tool-with-laravel + several improvements
 
 ---
 
@@ -27,8 +29,7 @@ Keyword density is a key factor in the Google search engine algorithm. It is wid
 
 ---
 
-## ✨ Features
-> keyword density calculator
-
-> standardized development environment with devcontainers
-
+## ✨ Features ✨
+1. **Keyword Density calculator**
+2. **Support calculation from direct URL**
+3. **Standardized development environment with devcontainers**
