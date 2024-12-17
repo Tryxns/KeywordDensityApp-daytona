@@ -1,10 +1,4 @@
-This repository contains a README file sample for Daytona Samples and the MIT License.
-
-It can be used as a template to create sample repositories that can be added into [Daytona](https://github.com/daytonaio/daytona).
-
-Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
-
-# Sample <PHP/Laravel>
+# Keyword Density Tool <PHP/Laravel>
 
 Keyword density is a key factor in the Google search engine algorithm. It is widely thought that a good keyword density for optimising web pages for Google rankings is around 3.5%. If the percentage is higher, for example 20%, then this could be seen as 'keyword stuffing' and therefore could badly affect your Google search rankings.
 
@@ -31,5 +25,5 @@ This project is stands as a full code version of tutorial https://www.freecodeca
 
 ## ✨ Features ✨
 1. **Keyword Density calculator**
-2. **Support calculation from direct URL**
+2. **Support calculation from either large text / raw html / direct URL**
 3. **Standardized development environment with devcontainers**
