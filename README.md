@@ -2,7 +2,7 @@
 
 Keyword density is a key factor in the Google search engine algorithm. It is widely thought that a good keyword density for optimising web pages for Google rankings is around 3.5%. If the percentage is higher, for example 20%, then this could be seen as 'keyword stuffing' and therefore could badly affect your Google search rankings.
 
-This project is stands as a full code version of tutorial https://www.freecodecamp.org/news/how-to-build-a-keyword-density-tool-with-laravel + several improvements
+This project is inspired by tutorial https://www.freecodecamp.org/news/how-to-build-a-keyword-density-tool-with-laravel (it doesn't has the full code version) so I made the full version + several adjustments due to few bugs I found through the tutorial + several improvements to make this tool more useful
 
 ---
 
